@@ -40,9 +40,6 @@ def main(argv):
         image_e = exposure.adjust_gamma(image, 2)
         hsv_img = cv2.cvtColor(image_e, cv2.COLOR_BGR2HSV)
 
-        
-        
-
         mask = cv2.inRange(hsv_img, o_low, o_high)
         viewImage(mask)
 
