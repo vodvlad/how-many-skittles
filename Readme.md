@@ -1,4 +1,4 @@
-# How much skittles?
+# How many skittles?
 
 <pre><code>py skittles.py argv1 argv2
 </code></pre>
